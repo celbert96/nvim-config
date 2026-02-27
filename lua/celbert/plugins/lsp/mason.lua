@@ -41,6 +41,9 @@ return {
         "omnisharp",
         "gopls"
       },
+      automatic_enable = {
+        exclude = { "stylua" },
+      },
     })
 
     mason_tool_installer.setup({
